@@ -4,7 +4,6 @@ const table:HTMLTableElement = document.getElementById('rows') as HTMLTableEleme
 
 let average = (data.reduce((acc, serie) => acc + serie.seasons, 0) / data.length);
 
-const cardMovie:HTMLElement = document.getElementById('cardMovie') as HTMLElement;
 const MovieImage:HTMLImageElement = document.getElementById('MovieImage') as any;
 const MovieTitle:HTMLElement = document.getElementById('MovieTitle') as HTMLElement;
 const MovieDescription:HTMLElement = document.getElementById('MovieDescription') as HTMLElement;

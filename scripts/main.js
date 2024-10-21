@@ -1,7 +1,6 @@
 import { data } from './data.js';
 var table = document.getElementById('rows');
 var average = (data.reduce(function (acc, serie) { return acc + serie.seasons; }, 0) / data.length);
-var cardMovie = document.getElementById('cardMovie');
 var MovieImage = document.getElementById('MovieImage');
 var MovieTitle = document.getElementById('MovieTitle');
 var MovieDescription = document.getElementById('MovieDescription');
