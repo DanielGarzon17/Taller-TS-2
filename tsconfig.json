@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",                  // Compatibilidad con la mayoría de navegadores
+    "module": "es6",                  // O usa "none" si no quieres un sistema de módulos
+    "outDir": "./scripts",               // Carpeta de salida para los archivos JS
+    "rootDir": "./",               // Carpeta con los archivos TypeScript
+    "strict": true,                   // Habilita verificaciones estrictas de tipo
+    "esModuleInterop": true,          // Interoperabilidad con módulos CommonJS
+    "skipLibCheck": true,             // Omitir comprobaciones de tipo en los archivos de biblioteca
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "./*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
