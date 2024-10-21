@@ -18,11 +18,11 @@ Para configurar el proyecto localmente, sigue estos pasos:
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/DanielGarzon17/Taller-TS-1.git
+    git clone https://github.com/DanielGarzon17/Taller-TS-2.git
     ```
 2. Navega al directorio del proyecto:
     ```bash
-    cd Taller-TS-1
+    cd Taller-TS-2
     ```
 3. Instala las dependencias:
     ```bash
