@@ -6,15 +6,15 @@ var MovieImage = document.getElementById('MovieImage');
 var MovieTitle = document.getElementById('MovieTitle');
 var MovieDescription = document.getElementById('MovieDescription');
 var MovieLink = document.getElementById('MovieLink');
-data.forEach(function (series) {
+data.forEach(function (serie) {
     var row = table.insertRow();
-    row.innerHTML = "<th  scope=\"row\">".concat(series.id, "</th>\n                     <td><a href=\"").concat(series.website, "\" class=\"text-decoration-none\">").concat(series.title, "</a></td>\n                     <td>").concat(series.network, "</td>\n                     <td>").concat(series.seasons, "</td>");
+    row.innerHTML = "<th  scope=\"row\">".concat(serie.id, "</th>\n                     <td><a href=\"").concat(serie.website, "\" class=\"text-decoration-none\">").concat(serie.title, "</a></td>\n                     <td>").concat(serie.network, "</td>\n                     <td>").concat(serie.seasons, "</td>");
     row.addEventListener('click', function () {
-        MovieImage.src = series.image;
-        MovieImage.alt = "Image of ".concat(series.title);
-        MovieTitle.textContent = series.title;
-        MovieDescription.textContent = series.description;
-        MovieLink.href = series.website;
+        MovieImage.src = serie.image;
+        MovieImage.alt = "Image of ".concat(serie.title);
+        MovieTitle.textContent = serie.title;
+        MovieDescription.textContent = serie.description;
+        MovieLink.href = serie.website;
     });
 });
 var row = table.insertRow();
